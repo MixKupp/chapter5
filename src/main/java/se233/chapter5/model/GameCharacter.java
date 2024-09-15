@@ -177,6 +177,10 @@ public class GameCharacter extends Pane {
         this.isJumping = false;
     }
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
     public int getX() {
         return x;
     }
@@ -191,5 +195,153 @@ public class GameCharacter extends Pane {
 
     public int getScore() {
         return score;
+    }
+
+    public Image getCharacterImg() {
+        return characterImg;
+    }
+
+    public void setCharacterImg(Image characterImg) {
+        this.characterImg = characterImg;
+    }
+
+    public void setImageView(AnimatedSprite imageView) {
+        this.imageView = imageView;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
+    public int getStartX() {
+        return startX;
+    }
+
+    public void setStartX(int startX) {
+        this.startX = startX;
+    }
+
+    public int getStartY() {
+        return startY;
+    }
+
+    public void setStartY(int startY) {
+        this.startY = startY;
+    }
+
+    public void setCharacterWidth(int characterWidth) {
+        this.characterWidth = characterWidth;
+    }
+
+    public int getCharacterHeight() {
+        return characterHeight;
+    }
+
+    public void setCharacterHeight(int characterHeight) {
+        this.characterHeight = characterHeight;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public void setLeftKey(KeyCode leftKey) {
+        this.leftKey = leftKey;
+    }
+
+    public void setRightKey(KeyCode rightKey) {
+        this.rightKey = rightKey;
+    }
+
+    public void setUpKey(KeyCode upKey) {
+        this.upKey = upKey;
+    }
+
+    public int getxVelocity() {
+        return xVelocity;
+    }
+
+    public void setxVelocity(int xVelocity) {
+        this.xVelocity = xVelocity;
+    }
+
+    public int getyVelocity() {
+        return yVelocity;
+    }
+
+    public void setyVelocity(int yVelocity) {
+        this.yVelocity = yVelocity;
+    }
+
+    public int getxAcceleration() {
+        return xAcceleration;
+    }
+
+    public void setxAcceleration(int xAcceleration) {
+        this.xAcceleration = xAcceleration;
+    }
+
+    public int getyAcceleration() {
+        return yAcceleration;
+    }
+
+    public void setyAcceleration(int yAcceleration) {
+        this.yAcceleration = yAcceleration;
+    }
+
+    public int getxMaxVelocity() {
+        return xMaxVelocity;
+    }
+
+    public void setxMaxVelocity(int xMaxVelocity) {
+        this.xMaxVelocity = xMaxVelocity;
+    }
+
+    public int getyMaxVelocity() {
+        return yMaxVelocity;
+    }
+
+    public void setyMaxVelocity(int yMaxVelocity) {
+        this.yMaxVelocity = yMaxVelocity;
+    }
+
+    public boolean isMoveLeft() {
+        return isMoveLeft;
+    }
+
+    public void setMoveLeft(boolean moveLeft) {
+        isMoveLeft = moveLeft;
+    }
+
+    public boolean isMoveRight() {
+        return isMoveRight;
+    }
+
+    public void setMoveRight(boolean moveRight) {
+        isMoveRight = moveRight;
+    }
+
+    public boolean isFalling() {
+        return isFalling;
+    }
+
+    public void setFalling(boolean falling) {
+        isFalling = falling;
+    }
+
+    public boolean isCanJump() {
+        return canJump;
+    }
+
+    public void setCanJump(boolean canJump) {
+        this.canJump = canJump;
+    }
+
+    public boolean isJumping() {
+        return isJumping;
+    }
+
+    public void setJumping(boolean jumping) {
+        isJumping = jumping;
     }
 }
