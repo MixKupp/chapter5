@@ -115,7 +115,7 @@ public class GameCharacterTest {
     }
 
     @Test
-    public void keypress_singlekeypress_thenIsPressedIsTrue() {
+    public void keypress_singlekeypress_IsPressedIsTrue() {
         KeyCode key = KeyCode.A;
         Keys keys = new Keys();
         keys.add(key);
@@ -123,7 +123,7 @@ public class GameCharacterTest {
     }
 
     @Test
-    public void keypress_sequencekeypress_thenIsPressedIsTrue() {
+    public void keypress_sequencekeypress_IsPressedIsTrue() {
         KeyCode key1 = KeyCode.A;
         KeyCode key2 = KeyCode.B;
         Keys keys = new Keys();
